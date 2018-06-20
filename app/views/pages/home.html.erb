@@ -2,17 +2,28 @@
   <h1>Welcome, Heros!</h1>
   <h2>We were waiting for you...</h2>
 </div>
-<div>
+<div class="ambiance-text">
   <p>You'll face many challenges during your quest, and only a sharp mind, a keen eye, quick reflexes and strong strikes will allow you to get out of it alive and victorious.</p>
   <p>So behold! Now is the time to take your first decision...</p>
-  <div class="choice-title">
+  <div class="choice-title center">
     <p>Choose a weapon: </p>
   </div>
   <div class="choices">
-    <a href="#" class="choice">Magic Scepter</a>
-    <a href="#" class="choice">Bow and Arrows</a>
-    <a href="#" class="choice">Small Sharp Knives</a>
-    <a href="#" class="choice">Big Double Edges Sword</a>
-    <a href="#" class="choice">No weapon, my mind is the weapon</a>
+    <div class="choice">
+      <%= link_to "Badass Magic Scepter", accept_order_path %>
+      <a href="#" >Magic Scepter</a>
+    </div>
+    <div class="choice">
+      <a href="#" >Bow and Arrows</a>
+    </div>
+    <div class="choice">
+      <a href="#" >Small Sharp Knives</a>
+    </div>
+    <div class="choice">
+      <a href="#" >Big Double Edges Sword</a>
+    </div>
+    <div class="choice">
+      <a href="#" >No weapon, my mind is the weapon</a>
+    </div>
   </div>
 </div>
